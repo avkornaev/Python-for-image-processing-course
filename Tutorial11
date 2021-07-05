@@ -1,0 +1,69 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Копия блокнота \"Untitled8.ipynb\"",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyNIZ59RMIh+abwqG0A6/eZE",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/avkornaev/Python-for-image-processing-course/blob/main/Tutorial11\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QSMfMYv67N62",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "0feec941-0f92-4fe0-d7ca-d288229e68ed"
+      },
+      "source": [
+        "a=2\n",
+        "b=5\n",
+        "if a>b:\n",
+        "   print(\"wow, coding is easy\")\n",
+        "else:\n",
+        "   print(\"I hope I can do it later\")\n",
+        "\n",
+        "m = input(\"Provide mass value in kg: \") #kg\n",
+        "m=int(m)\n",
+        "\n",
+        "c = 3e8 #m/s\n",
+        "E=m*c**2\n",
+        "print(\"Enerry is: \", '{:.2E}' .format(E), \"J\")\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "I hope I can do it later\n",
+            "Provide mass value in kg: 10\n",
+            "Enerry is:  9.00E+17 J\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
